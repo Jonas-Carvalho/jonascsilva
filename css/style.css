@@ -1,0 +1,111 @@
+  
+  
+/*=======================================================
+					BODY
+  ======================================================= */
+
+
+body{
+	width:100%; 
+	margin:auto;
+	background-image:url(../images/background.png);
+    background-size:auto;
+	text-align:center;
+	cursor: url('../images/cursor.cur'), auto;
+}
+body a{
+	color:#0072bb;
+}
+body a:hover {
+	font-weight:bold;
+}
+
+/*=======================================================
+					CURSOR - MOUSE					
+  ======================================================= */
+body{
+	cursor: url('../images/cursor.cur'), auto;
+}
+link {
+	cursor: url('../images/select.cur'), auto;
+}
+
+/*=======================================================
+					BUTTON - EN/PT					
+  ======================================================= */
+.button {
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+}
+.button li {
+	display:inline-block;
+    cursor: pointer;
+}
+.button li:not(:first-child) {
+	padding-left: 30px;
+	padding-top: 300px;
+}
+
+/*=======================================================
+					BUTTON - EN/PT					
+  ======================================================= */
+.banner {
+	padding-top: 100px;
+}
+/*=======================================================
+					MENU1					
+  ======================================================= */
+ 
+.menu1 {
+	padding:20px 0px 40px;
+	font-family: 'Roboto', sans-serif;
+}
+.menu1 li {
+	display:inline-block;
+}
+.menu1 li:not(:first-child) {
+	padding-left:20px;
+}
+
+/*=======================================================
+					CONTEUDO					
+  ======================================================= */
+.conteudo {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+}
+.conteudo p:not(:first-child) {
+	padding-top:20px;
+}
+
+/*=======================================================
+					ARTIGO					
+  ======================================================= */
+article {
+	margin: auto;
+	width: 400px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	text-align:justify;
+}
+
+/*=======================================================
+					MENU2					
+  ======================================================= */
+ 
+.menu2 {
+	padding:30px 0px 10px;
+}
+.menu2 li {
+	display:inline-block;
+}
+
+/*=======================================================
+					Footer					
+  ======================================================= */
+footer {
+	width: 100%;
+}
+footer p {
+	font-size:12px;
+}
