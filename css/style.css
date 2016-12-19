@@ -1,10 +1,6 @@
-  
-  
 /*=======================================================
-					BODY
+					GLOBAL
   ======================================================= */
-
-
 body{
 	width:100%; 
 	margin:auto;
@@ -20,20 +16,16 @@ body a:hover {
 	font-weight:bold;
 }
 
-/*=======================================================
-					CURSOR - MOUSE					
-  ======================================================= */
-body{
-	cursor: url('../images/cursor.cur'), auto;
-}
-link {
-	cursor: url('../images/select.cur'), auto;
-}
 
 /*=======================================================
-					BUTTON - EN/PT					
+					MOBILE
   ======================================================= */
+
+/*====
+	EN/PT
+  ==== */
 .button {
+	padding-top:300px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 22px;
 }
@@ -42,70 +34,226 @@ link {
     cursor: pointer;
 }
 .button li:not(:first-child) {
-	padding-left: 30px;
-	padding-top: 300px;
+	padding-left: 60px;
 }
 
-/*=======================================================
-					BUTTON - EN/PT					
-  ======================================================= */
-.banner {
-	padding-top: 100px;
+/*====
+	FOTO DO PERFIL
+  ==== */
+.perfil_img {
+	padding-top: 50px;
 }
-/*=======================================================
-					MENU1					
-  ======================================================= */
- 
-.menu1 {
-	padding:20px 0px 40px;
+
+/*====
+	MENU
+  ==== */
+.menu {
+	padding:40px 0px 60px;
 	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
 }
-.menu1 li {
+.menu li {
 	display:inline-block;
 }
-.menu1 li:not(:first-child) {
-	padding-left:20px;
+.menu li:not(:first-child) {
+	padding-left:10px;
 }
 
-/*=======================================================
-					CONTEUDO					
-  ======================================================= */
-.conteudo {
+/*====
+	RESUMO
+  ==== */
+.resumo {
+	width:80%;
+	margin:auto;
 	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
+	font-size: 20px;
+	padding-bottom: 40px;
 }
-.conteudo p:not(:first-child) {
-	padding-top:20px;
+.resumo p:not(:first-child) {
+	padding-top:15px;
 }
 
-/*=======================================================
-					ARTIGO					
-  ======================================================= */
+/*====
+	ARTIGO
+  ==== */
 article {
 	margin: auto;
-	width: 30%;
+	width: 80%;
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	text-align:justify;
+	padding-bottom: 60px;
 }
 
-/*=======================================================
-					MENU2					
-  ======================================================= */
- 
-.menu2 {
-	padding:30px 0px 10px;
-}
-.menu2 li {
+/*====
+	SOCIAL
+  ==== */
+.social li {
 	display:inline-block;
 }
 
-/*=======================================================
-					Footer					
-  ======================================================= */
+/*====
+	FOOTER
+  ==== */
 footer {
 	width: 100%;
 }
-footer p {
-	font-size:12px;
+
+
+/*=======================================================
+					TABLET
+  ======================================================= */
+
+@media screen and (min-width: 768px) {
+	.button {
+		padding-top:500px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 32px;
+	}
+	.button li {
+		display:inline-block;
+		cursor: pointer;
+	}
+	.button li:not(:first-child) {
+		padding-left: 60px;
+	}
+
+	/*====
+		FOTO DO PERFIL
+	  ==== */
+	.perfil_img {
+		padding-top: 200px;
+	}
+
+	/*====
+		MENU
+	  ==== */
+	.menu {
+		padding:40px 0px 80px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 22px;
+	}
+	.menu li {
+		display:inline-block;
+	}
+	.menu li:not(:first-child) {
+		padding-left:40px;
+	}
+
+	/*====
+		RESUMO
+	  ==== */
+	.resumo {
+		width:80%;
+		margin:auto;
+		font-family: 'Raleway', sans-serif;
+		font-size: 24px;
+	}
+	.resumo p:not(:first-child) {
+		padding-top:25px;
+	}
+
+	/*====
+		ARTIGO
+	  ==== */
+	article {
+		margin: auto;
+		width: 60%;
+		font-family: 'Raleway', sans-serif;
+		font-size: 18px;
+		text-align: justify;
+		padding-bottom: 60px;
+	}
+
+	/*====
+		SOCIAL
+	  ==== */
+	.social li {
+		display: inline-block;
+	}
+	/*====
+		FOOTER
+	  ==== */
+	footer {
+		width: 100%;
+	}
+}
+
+/*=======================================================
+					MONITORES
+  ======================================================= */
+
+@media screen and (min-width: 992px) {
+	.button {
+		padding-top:350px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 32px;
+	}
+	.button li {
+		display:inline-block;
+		cursor: pointer;
+	}
+	.button li:not(:first-child) {
+		padding-left: 60px;
+	}
+
+	/*====
+		FOTO DO PERFIL
+	  ==== */
+	.perfil_img {
+		padding-top: 80px;
+	}
+
+	/*====
+		MENU
+	  ==== */
+	.menu {
+		padding:40px 0px 80px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 22px;
+	}
+	.menu li {
+		display:inline-block;
+	}
+	.menu li:not(:first-child) {
+		padding-left:40px;
+	}
+
+	/*====
+		RESUMO
+	  ==== */
+	.resumo {
+		width:80%;
+		margin:auto;
+		font-family: 'Raleway', sans-serif;
+		font-size: 24px;
+	}
+	.resumo p:not(:first-child) {
+		padding-top:25px;
+	}
+
+	/*====
+		ARTIGO
+	  ==== */
+	article {
+		margin: auto;
+		width: 40%;
+		font-family: 'Raleway', sans-serif;
+		font-size: 18px;
+		text-align: justify;
+		padding-bottom: 60px;
+	}
+
+	/*====
+		SOCIAL
+	  ==== */
+	.social li {
+		display: inline-block;
+	}
+	/*====
+		FOOTER
+	  ==== */
+	footer {
+		width: 100%;
+	}
 }
